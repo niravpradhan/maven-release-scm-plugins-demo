@@ -5,7 +5,7 @@
 
     <groupId>me.niravpradhan</groupId>
     <artifactId>maven-release-scm-plugins-demo</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <name>maven-release-scm-plugins-demo</name>
     <description>A simple maven-release-scm-plugins-demo.</description>
