@@ -5,7 +5,7 @@
 
     <groupId>me.niravpradhan</groupId>
     <artifactId>maven-release-scm-plugins-demo</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <name>maven-release-scm-plugins-demo</name>
     <description>A simple maven-release-scm-plugins-demo.</description>
@@ -23,11 +23,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>me.niravpradhan</groupId>
-            <artifactId>jpa-entities</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
@@ -37,7 +32,7 @@
     <scm>
       <url>https://github.com/niravpradhan/maven-release-scm-plugins-demo</url>
       <developerConnection>scm:git:https://github.com/niravpradhan/maven-release-scm-plugins-demo.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>maven-release-scm-plugins-demo-1.1</tag>
   </scm>
 
     <build>
