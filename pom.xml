@@ -5,7 +5,7 @@
 
     <groupId>me.niravpradhan</groupId>
     <artifactId>maven-release-scm-plugins-demo</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <name>maven-release-scm-plugins-demo</name>
     <description>A simple maven-release-scm-plugins-demo.</description>
@@ -32,7 +32,7 @@
     <scm>
       <url>https://github.com/niravpradhan/maven-release-scm-plugins-demo</url>
       <developerConnection>scm:git:https://github.com/niravpradhan/maven-release-scm-plugins-demo.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>maven-release-scm-plugins-demo-1.1</tag>
   </scm>
 
     <build>
