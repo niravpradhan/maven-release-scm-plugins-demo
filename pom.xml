@@ -91,19 +91,14 @@
         </plugins>
     </reporting>
 
-    <profiles>
-        <profile>
+    <distributionManagement>
+        <repository>
             <id>jfrog-artifactory</id>
-            <distributionManagement>
-                <repository>
-                    <id>jfrog-artifactory</id>
-                    <url>http://ubuntu:8082/artifactory/jfrog-releases/</url>
-                </repository>
-                <snapshotRepository>
-                    <id>jfrog-artifactory</id>
-                    <url>http://ubuntu:8082/artifactory/jfrog-snapshots/</url>
-                </snapshotRepository>
-            </distributionManagement>
-        </profile>
-    </profiles>
+            <url>http://ubuntu:8082/artifactory/jfrog-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>jfrog-artifactory</id>
+            <url>http://ubuntu:8082/artifactory/jfrog-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
